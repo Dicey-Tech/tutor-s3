@@ -18,6 +18,7 @@ config = {
         "COURSE_IMPORT_EXPORT_BUCKET": "{{ S3_STORAGE_BUCKET }}",
         "PROFILE_IMAGE_BUCKET": "{{ S3_STORAGE_BUCKET }}",
         "PROFILE_IMAGE_CUSTOM_DOMAIN": "",
+        "PROFILE_IMAGE_LOCATION": "profile-images/",
         "PROFILE_IMAGE_MAX_AGE": "31536000",
     },
 }
